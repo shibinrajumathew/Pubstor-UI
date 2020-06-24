@@ -1,0 +1,77 @@
+.inlineWrapper {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+.selectBox {
+  border-radius: 40px;
+  border: 1px solid #aaaaaa;
+  height: 19px;
+}
+.rightRadiusRemover {
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+.leftRadiusRemover {
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+.rightBorderRemover {
+  border-right: none !important;
+}
+.leftBorderRemover {
+  border-left: none !important;
+}
+.footer {
+  padding: 10px;
+  line-height: 6px;
+  color: gray;
+  font-size: 14px;
+}
+.italicText {
+  font-style: italic;
+}
+.bgWhite {
+  background-color: white !important;
+}
+.bgWhiteSmoker {
+  background-color: whitesmoke !important;
+}
+.bgGreenSmoker {
+  background-color: #dbdecb !important;
+}
+.bgSkyBlue {
+  background-color: #0d3f73 !important;
+}
+.bgLightYellowFont {
+  background-color: #f5bc10 !important;
+}
+.boldText {
+  font-weight: bold !important;
+}
+.redFont {
+  color: red !important;
+}
+.blueFont {
+  color: blue !important;
+}
+.blackFont {
+  color: black !important;
+}
+.whiteFont {
+  color: white !important;
+}
+.orangeFont {
+  color: #e87e10 !important;
+}
+.offGreenFont {
+  color: #9a9845 !important;
+}
+
+.customListGroup {
+  border-bottom-style: dotted !important;
+  border-bottom-width: 1px !important;
+  border-bottom-color: rgba(68, 61, 61, 0.29) !important;
+  font-size: 12px !important;
+  padding: 5px !important;
+}
