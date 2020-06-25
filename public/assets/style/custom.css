@@ -1,6 +1,11 @@
+div.blackHeaderWrapper {
+  background-color: #525252; 
+  min-height: 150px;
+  display: flex;
+  flex-direction: row;
+}
 .inlineWrapper {
   display: inline-block;
-  margin-left: 10px;
   margin-right: 15px;
 }
 .selectBox {
@@ -24,9 +29,12 @@
 }
 .footer {
   padding: 10px;
-  line-height: 6px;
   color: gray;
   font-size: 14px;
+  margin: 0px;
+}
+.footer p {
+  margin: 0;
 }
 .italicText {
   font-style: italic;
@@ -55,6 +63,9 @@
 .blueFont {
   color: blue !important;
 }
+.skyBlueFont {
+  color: rgb(54, 162, 235) !important;
+}
 .blackFont {
   color: black !important;
 }
@@ -67,7 +78,6 @@
 .offGreenFont {
   color: #9a9845 !important;
 }
-
 .customListGroup {
   border-bottom-style: dotted !important;
   border-bottom-width: 1px !important;
